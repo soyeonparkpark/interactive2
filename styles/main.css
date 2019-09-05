@@ -40,9 +40,9 @@ ul {
 }
 
 a {
-	color:black;
+	color:lightpink;
 }
 
 a:hover {
-	color:red;
+	color:lightyellow;
 }
