@@ -483,27 +483,22 @@ display: block;
 }
 
 .leave.goAway {
-  animation: flyAway 6000ms ease-in;
+  animation: flyAway 3000ms ease-in;
   animation-fill-mode: forwards;
 }
 
 @keyframes flyAway {
 
   0% {
-    transform: translateY(-400px);
+    transform: translateY(-250px);
   }
-  50% {
-    transform: translateY(-1000px) rotate(20deg); 
-    color:#d4e4d2;
-  }
-  70% {
-    transform: translateY(-500px) rotate(20deg); 
-    color:#d4e4d2;
-  }
+ 
+    
+  
   100% {
 
     transform: translateY(-1300px) rotate(50deg); 
-    color:#d4e4d2;
+    
   }
 }
 
