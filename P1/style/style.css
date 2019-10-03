@@ -1,0 +1,207 @@
+
+/* setup the spread */
+
+/* this defines the helper grid */
+
+h1 {
+
+
+color:#90a49c;
+font-family: fira sans-2, sans-serif;
+letter-spacing: 10px;
+font-style: normal;
+font-weight: 500;
+position: absolute;
+font-size: 40px;
+text-align: center;
+margin-top: 240px;
+margin-left: 360px; 
+text-align: center;
+
+ animation-name: yeon;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+animation: yeon 5s end;
+
+}
+ @keyframes yeon{
+    0%   {color: #fffef0; }
+    50%  {color: #8da69c; }
+    100% {color:#fffef0;}
+  }
+
+
+
+
+
+
+
+h2 {
+
+
+color:#364745;;
+font-family: fira sans-2, sans-serif;
+letter-spacing: 5px;
+font-style: 300px;
+font-weight: 500px;
+margin-left: 430px;
+margin-top: 60px;
+font-size: 40px;
+line-height: 90px;
+text-align: left;
+
+ 
+  }
+  h2.content 
+  {
+color:#a5b29b;
+font-size:20px;
+letter-spacing: 0px;
+text-align: left;
+line-height: 38px;
+font-family: stratos-lights, sans-serif;
+font-style: normal;
+font-weight: 400;
+  }
+
+
+h3 {
+
+
+color:#fffef0;
+font-family: fira sans-2, sans-serif;
+
+font-weight: 300;
+position: absolute;
+font-size: 14px;
+position: absolute;
+margin-top: 320px;
+margin-left: 510px;
+
+
+  }
+  
+  h4 {
+
+color:#fffef0;
+font-family: fira sans-2, sans-serif;
+letter-spacing: 10px;
+font-style: 300px;
+font-weight: 200px;
+margin-left: 300px;
+margin-top: 450px;
+font-size: 30px;
+line-height: 90px;
+
+
+
+
+  }
+
+  h5 {
+
+color:#fffef0;
+font-family: fira sans-2, sans-serif;
+letter-spacing: 10px;
+font-style: 300px;
+font-weight: 200px;
+margin-left: 290px;
+margin-top: 1200px;
+font-size: 30px;
+line-height: 90px;
+
+
+
+
+  }
+
+
+   h6 {
+
+color:#fffef0;
+font-family: fira sans-2, sans-serif;
+letter-spacing: 10px;
+font-style: 300px;
+font-weight: 200px;
+margin-left: 250px;
+margin-top: 1900px;
+font-size: 30px;
+line-height: 90px;
+
+
+
+
+  }
+
+
+  p.hi 
+  {
+
+font-size: 150px;
+color: #364745;
+font-family: josefin-sans, sans-serif;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 20px;
+stroke:white;
+
+margin-left: 300px;
+margin-top: 240px;
+
+
+animation-name: welcome;
+animation-duration: 4s;
+animation-fill-mode: both;
+animation: welcome 2s infinite;
+
+}
+ @keyframes welcome{
+    0%   {margin-left: 300px;}
+   50%{margin-left: 330px;}
+
+   
+   
+  }
+
+transition:4s;
+}
+
+
+p.a{
+
+width: 40px;
+height:20px;
+
+font-family: fira sans-2, sans-serif;
+margin-top: 2000px;
+font-style: 300px;
+font-weight: 500px;
+
+font-size: 30px;
+line-height: 130px;
+text-align: center;
+
+
+
+
+
+}
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

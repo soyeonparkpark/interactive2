@@ -1,0 +1,84 @@
+body {
+  
+
+
+
+
+background-color: #27352f;
+
+  
+
+}
+h1{
+
+font-size: 50px;
+position: absolute;
+margin-left:580px;
+font-family: lemondejournal, serif;
+font-style: normal;
+font-weight: 200;
+letter-spacing: 10px;
+ color:#fffef0;
+margin-top: 470px;
+
+
+}
+h2{
+width:480px;
+font-size: 15px;
+position: absolute;
+margin-left:470px;
+line-height: 33px;
+font-family: fira sans-2, sans-serif;
+font-style: normal;
+font-weight: lighter;
+
+
+ color:#d4e4d2;
+margin-top: 580px;
+
+
+
+
+}
+
+.i{
+
+width:300px;
+height:400px;
+background-color:none;
+background-image: url("Image/china.png");
+background-size:cover;
+background-position: center;
+position:absolute;
+margin-left:550px;
+ 
+margin-top: 40px;
+align-items: center;
+
+}
+
+
+
+.send{
+
+width:200px;
+height:200px;
+background-color:none;
+background-image: url("Image/send.png");
+background-size:cover;
+background-position: center;
+position:absolute;
+margin-left:740px;
+ 
+margin-top: 410px;
+align-items: center;
+
+}
+.send:hover {
+
+
+filter:blur(20px);
+transition:1.5s;
+
+}
