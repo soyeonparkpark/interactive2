@@ -96,7 +96,7 @@ background-position: center;
 position: absolute;
 padding:10px;
 margin-left: 712px;
-margin-top: 2300px;
+margin-top: 2100px;
 align-items: center;
 transition: opacity 1000ms ease-in;
 
@@ -137,7 +137,7 @@ background-position: center;
 position: absolute;
 padding:10px;
 margin-left: 712px;
-margin-top: 1730px;
+margin-top: 1830px;
 align-items: center;
 transition: opacity 1000ms ease-in;
 
@@ -194,7 +194,7 @@ background-position: center;
 position: absolute;
 padding:10px;
 margin-left: 50px;
-margin-top: 1190px;
+margin-top: 1300px;
 align-items: center;
 display: block;
 
@@ -230,7 +230,7 @@ background-position: center;
 position: absolute;
 padding:10px;
 margin-left: 50px;
-margin-top: 1880px;
+margin-top: 1980px;
 align-items: center;
 display: block;
 
@@ -250,8 +250,8 @@ background-size:cover;
 background-position: center;
 position:absolute;
 padding:10px;
-margin-left: 250px;
-margin-top: 2780px;
+margin-left: 290px;
+margin-top: 2750px;
 align-items: center;
 display: block;
 
@@ -277,8 +277,8 @@ background-size:cover;
 background-position: center;
 position:absolute;
 padding:10px;
-margin-left: 670px;
-margin-top: 2765px;
+margin-left: 710px;
+margin-top: 2735px;
 align-items: center;
 display: block;
 
@@ -302,8 +302,8 @@ background-size:cover;
 background-position: center;
 position:absolute;
 padding:10px;
-margin-left: 960px;
-margin-top: 2750px;
+margin-left: 1000px;
+margin-top: 2720px;
 align-items: center;
 display: block;
 
@@ -328,7 +328,7 @@ background-position: center;
 position:absolute;
 padding:10px;
 margin-left: 200px;
-margin-top: 2200px;
+margin-top: 2300px;
 align-items: center;
 display: block;
 transition:1s;
@@ -336,7 +336,7 @@ transition:1s;
 }
 .nigeria:hover {
 
-filter:brightness(100);
+filter:blur(20px);
 transition:1.5s;
 
 
@@ -352,14 +352,14 @@ background-position: center;
 position:absolute;
 padding:10px;
 margin-left: 490px;
-margin-top: 2360px;
+margin-top: 2530px;
 align-items: center;
 display: block;
 
 }
 .india:hover {
 
-filter:brightness(100);
+filter:blur(20px);
 transition:1.5s;
 
 
@@ -375,7 +375,7 @@ background-position: center;
 position:absolute;
 padding:10px;
 margin-left: 840px;
-margin-top: 2090px;
+margin-top: 2260px;
 align-items: center;
 display: block;
 
@@ -383,7 +383,7 @@ display: block;
 .china:hover {
 
 
-filter:brightness(100);
+filter:blur(20px);
 transition:1.5s;
 
 }
@@ -399,7 +399,7 @@ background-position: center;
 position:absolute;
 padding:10px;
 margin-left: 260px;
-margin-top: 1250px;
+margin-top: 1350px;
 align-items: center;
 display: block;
 
@@ -423,7 +423,7 @@ background-position: center;
 position:absolute;
 padding:10px;
 margin-left: 470px;
-margin-top: 1345px;
+margin-top: 1445px;
 align-items: center;
 display: block;
 
@@ -449,7 +449,7 @@ background-position: center;
 position:absolute;
 padding:10px;
 margin-left: 890px;
-margin-top: 3510px;
+margin-top: 3610px;
 align-items: center;
 display: block;
 
@@ -483,21 +483,21 @@ display: block;
 }
 
 .leave.goAway {
-  animation: flyAway 3000ms ease-in;
+  animation: flyAway 8000ms ease-in infinite;
   animation-fill-mode: forwards;
 }
 
 @keyframes flyAway {
 
   0% {
-    transform: translateY(-250px);
+    transform: translateY(1250px);
   }
  
     
   
   100% {
 
-    transform: translateY(-1800px) rotate(50deg); 
+    transform: translateY(-1300px) rotate(50deg); 
     
   }
 }
@@ -584,11 +584,11 @@ transition: all 4s ease-in-out;
 
   #computerDescription {
     position:relative;
-    top:400px;
-    left:260px;
+    top:370px;
+    left:298px;
     font-size: 20px;
     height:25px;
-    width:275px;
+    width:270px;
     margin:0;
     padding:0;
     color:#fffef0;
@@ -598,11 +598,11 @@ font-weight: 100;
   }
   #phoneDescription {
     position:relative;
-    top:370px;
-    left:620px;
+    top:340px;
+    left:650px;
       font-size: 20px;
     height:25px;
-    width:275px;
+    width:270px;
     margin:0;
     padding:0;
     color:#fffef0;
@@ -615,8 +615,8 @@ font-weight: 100;
 
    #tvDescription {
     position:relative;
-    top:345px;
-    left:965px;
+    top:315px;
+    left:1005px;
  font-size: 20px;
     height:25px;
     width:270px;
