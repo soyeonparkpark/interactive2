@@ -2,7 +2,7 @@ body {
   
 
 
-background-color: #141917;
+background-color: #1e2826;
 height: 1200px;
 
 }
@@ -15,7 +15,7 @@ font-family: fira sans-2, sans-serif;
 font-style: 300px;
 font-weight: lighter;
 color:#fffef0;
-margin-top: 220px;
+margin-top: 100px;
   margin-left: 150px;
   line-height: 40px;
 column-count: 2;
@@ -23,6 +23,7 @@ column-gap: 30px;
 width:1100px;
 
 color:white;
+position: absolute;
 
 }
 h2{
@@ -42,16 +43,16 @@ font-weight: 500px;
 
 .send{
 
-width:500px;
-height:500px;
+width:120px;
+height:50px;
 background-color:none;
 background-image: url("Image/send.png");
 background-size:cover;
 background-position: center;
 position:absolute;
-margin-left:465px;
+margin-left:630px;
  position: absolute;
-margin-top: -40px;
+margin-top: 880px;
 align-items: center;
 
 }
