@@ -264,6 +264,11 @@ transition:1.5s;
 
 }
 
+.blur {
+  filter:blur(20px);
+transition:1.5s;
+}
+
 
 
 
@@ -290,6 +295,10 @@ filter:blur(20px);
 transition:1.5s;
 
 }
+.blur {
+  filter:blur(20px);
+transition:1.5s;
+}
 
 
 a.tv{
@@ -314,6 +323,10 @@ display: block;
 filter:blur(20px);
 transition:1.5s;
 
+}
+.blur {
+  filter:blur(20px);
+transition:1.5s;
 }
 
 
