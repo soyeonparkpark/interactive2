@@ -1,0 +1,86 @@
+body {
+	
+	color: black;
+	margin-left: 0px;
+  font-size:320px;
+	display: grid;
+	align-items: center;
+  justify-items: center;
+  margin-top:-80px;
+  min-height: 100vh;
+  font-family: blenny, sans-serif;
+font-style: normal;
+font-weight: 800;
+}
+
+
+#clock {
+	
+width:1300px;
+	height: 0px;
+  margin: 0px;
+z-index: 30;
+color:black;
+
+/*	display: grid;
+	align-items: center;
+  justify-content: center;
+*/  position:relative;
+margin-left: 40px;
+  font-size: 35pt;
+
+
+
+}
+
+#clock div {
+  float:left;
+  margin:40px;
+/*z-index: -10;*/
+
+font-family: hatch, serif;
+font-style: normal;
+font-weight: 800;
+
+}
+
+
+
+.now {
+  
+    color: white;
+    text-shadow: 0 0 0.19em white;
+    
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+
+    
+}
+
+#time {
+  position: relative;
+ 
+}
+
+.aFiveMinute {
+	background: white;
+}
+#ding 
+
+
+
+
+
+
+/* #secondHand {
+  position:absolute;
+  top:50px;
+  left:250px;
+  width:2px;
+  height:200px;
+  background:red;
+  
+  /* spin the second hand from the middle of the clock */
+  /*transform-origin:50% 100%;*/
+/*} */
