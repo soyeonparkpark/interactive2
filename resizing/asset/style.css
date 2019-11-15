@@ -1,0 +1,85 @@
+body {
+  font-size:2vw;
+  font-family:Menlo, monospace;
+}
+.copy {
+  max-width: 500px;
+  margin:0 auto;
+}
+
+
+
+body {
+    background:
+        -moz-radial-gradient(white 15%, transparent 16%),
+        -moz-radial-gradient(white 15%, transparent 16%),
+        black;
+    background:
+        -webkit-radial-gradient(white 15%, transparent 16%),
+        -webkit-radial-gradient(white 15%, transparent 16%),
+        black;
+    background-position: 0 0, 60vw 10vh;
+    
+    -webkit-background-size:160vw 160vh;
+    -moz-background-size:160vw 160vh;
+    background-size:160px 160px;
+}
+
+
+
+
+.square {
+  position:fixed;
+  top:calc(56vh - 25vmin);
+  left:calc(58vw - 25vmin);
+  width: 200px;
+      height: 100px;
+      transform: skew(40deg);
+      background: white;
+  z-index:-1;
+}
+
+.b-square {
+  position:fixed;
+  top: calc(68vh - 25vmin);
+    left: calc(60.9vw - 25vmin);
+  width: 200px;
+      height: 100px;
+      transform: skew(0deg);
+      background: red;
+  z-index:-1;
+}
+
+.c-square {
+  position: fixed;
+    top: calc(62vh - 25vmin);
+    left: calc(55.1vw - 25vmin);
+    width: 83.7px;
+    height: 100px;
+    transform: skew(0deg, 50deg);
+      background: blue;
+  z-index:-1;
+}
+
+.big, .small {
+  display:none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top:25vh;
+  }
+  .small {
+    display:block;
+  }
+  
+}
+
+@media only screen and  (min-width: 601px) {
+  .big {
+    display:block;
+  }
+}
+
+
+
