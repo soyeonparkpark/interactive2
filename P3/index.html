@@ -1,50 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>resize me</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sfmoma</title>
+    <meta charset="utf-8"/>
+    
     
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="Asset/style.css">
     
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="Asset/main.js" defer></script>
   </head>  
   <body>
-    <div class="copy">
-      <h1>resizing</h1>
-      <div>
-        <strong class="big">currently wider than 600px</strong>
-        <strong class="small">currently smaller than 600px</strong>
+
+<div id="pageOne" class="page">
+  <div id="mobile">
+       
+    </div>
+  <h2>SFMOMA</h2>
+    <h1>Barbara Stauffacher Solomon</h1>
+    <p>BARBARA STAUFFACHER SOLOMON,<br> SAN FRANCISCO MUSEUM OF ART<br> PROGRAM GUIDE.</p>
+    <h3>Scroll for next </h3>
+
+<div class="go"></div>
+<div class="circle"></div>
+
+<div class="Secondcircle"></div>
+
+</div>
+<div id="pageTwo" class="page">
+  <div class="arrow"></div>
+  <div class="artist"></div>
+<h1> Barbara Stauffacher Solomon</h1> <p>
+In addition to the iconic, large-scale supergraphics at The Sea Ranch in Northern California, Barbara Stauffacher Solomon has also created work on a smaller, hand-held scale. On view in the museum’s third-floor Architecture and Design gallery, this selection of her small-scale designs will include graphic ephemera she created for SFMOMA in the 1960s, drawings of green architecture from the 1980s, and visual puns and pithy illustrations from her recent artist books.</p>
+
+
+</div>
+<div id="pageThree" class="page">
+  
+  <div class="work workTile">
+    <div class="up left"></div>
+    <div class="up right"></div>
+    <div class="down left"></div>
+    <div class="down right"></div>
+  </div>
+  <div class="Secondwork workTile">
+    <div class="up left"></div>
+    <div class="up right"></div>
+    <div class="down left"></div>
+    <div class="down right"></div>
+  </div>
+   <div class="Thirdwork workTile">
+     <div class="up left"></div>
+    <div class="up right"></div>
+    <div class="down left"></div>
+    <div class="down right"></div>
+   </div>
+   <div class="Fourwork workTile">
+     <div class="up left"></div>
+    <div class="up right"></div>
+    <div class="down left"></div>
+    <div class="down right"></div>
+   </div>
+   <div class="Fivework workTile">
+     <div class="up left"></div>
+    <div class="up right"></div>
+    <div class="down left"></div>
+    <div class="down right"></div>
+   </div>
+      <div class="Sixwork workTile">
+        <div class="up left"></div>
+    <div class="up right"></div>
+    <div class="down left"></div>
+    <div class="down right"></div>
       </div>
-      <p>
-        using <a href="https://glitch.com/edit/#!/remix/hickory-knight">this document as a base</a>, make a page that responds to the user resizing the window.
-      </p>
-      <p>
-        sometimes its enough to design your webpage using 'vw', 'vh', 'vmin' or 'vmax' instead of pixels in order to get it to resize with the browser window. on this page the font size is set in terms of vmin.
-      </p>
-      <p>
-        another approach to designing a page for different window sizes is to use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media">media queries</a> which let you write css that only applies if the window matches some rules you specified. this page changes when its narrower than 600px, for example. look at the style.css for that.
-      </p>
-      <p>
-        finally, you can also do javascript'y things when the page resizes, that let you achieve more complicated effects than you could with just css. for instance, having the font color evenly change based on how tall the window is. check out script.js for that
-      </p>
-      <p>
-        using these different approaches, make a one page site that responds to the user as they control the window. can you tell a story or create an unexpected interaction with the only input being the window size?
-      </p>
-      <p>
-        <a href="https://shaded-snowplow.glitch.me/">example outcome</a>
-      </p>
-      <p>
-        <a href="https://roomy-secure.glitch.me/">another one</a>
-      </p>
-      <p>
-        have your response to this exercise complete by Nov 14
-      </p>
-      
-    </div>
-    <div class="square"></div>
+  <!-- <h1 class="menu">Barbara Stauffacher Solomon</h1>
+   <h1 class="mywork">Creating my work</h1> -->
+   <a class="artworkLink" page="1"><h1 class ="title">San Francisco Museum of<br> Art program guide</h1></a>
+<a class="artworkLink" page="2"><h1 class ="title2">San Francisco Museum of <br>Art program guide </h1></a>
+<a class="artworkLink" page="3"><h1 class ="title3">San Francisco Museum of<br> Art program guide</h1></a>
+<a class="artworkLink" page="4"><h1 class ="title4">San Francisco Museum of<br> Art program guide</h1></a>
+
+<a class="artworkLink" page="5"><h1 class ="title5">San Francisco Museum of <br>Art program guide</h1></a>
+<a class="artworkLink" page="6"><h1 class ="title6">San Francisco Museum of<br> Art program guide</h1></a>
+
+
+
+
+
+<div class="menu" id="palette">
+
+<div>
+  <div class="openbox hide"></div>
+</div>
+
+  <div class="box "></div>
+</div>
+
+
+<div class="page" id="artworkOne">
+  <div class="close"></div>
+  <div class="working2"></div>
+<div class="workingblur2"></div>
+  <p class ="from2">BARBARA<br> STAUFFACHER SOLOMON,<br>SAN FRANCISCO MUSEUM <br> OF ART PROGRAM GUIDE</p> 
+  <p class="day">May 1970</p>
+</div>
+<div class="page" id="artworkTwo">
+  <div class="close"></div>
+  
+<div class="working"></div>
+<div class="workingblur"></div>
+
+<p class="day">May 1964</p>
+<p class ="from2">BARBARA<br> STAUFFACHER SOLOMON,<br>SAN FRANCISCO MUSEUM <br>OF ART PROGRAM GUIDE.</p>
+
+
+</div>
+<div class="page" id="artworkThree">
+  <div class="close"></div>
+  <div class="working3"></div>
+<div class="workingblur3"></div>
+  <p class ="from2">BARBARA<br> STAUFFACHER SOLOMON,<br>SAN FRANCISCO MUSEUM <br>OF ART PROGRAM GUIDE.</p>
+  <p class="day">November 1966</p>
+</div>
+<div class="page" id="artworkFour">
+  <div class="close"></div>
+   <div class="working4"></div>
+<div class="workingblur4"></div>
+  <p class ="from2">BARBARA<br> STAUFFACHER SOLOMON,<br>SAN FRANCISCO MUSEUM <br>OF ART PROGRAM GUIDE.</p>
+  <p class="day">March 1964</p>
+</div>
+<div class="page" id="artworkFive">
+  <div class="close"></div>
+  <div class="working5"></div>
+<div class="workingblur5"></div>
+  <p class ="from2">BARBARA<br> STAUFFACHER SOLOMON,<br>SAN FRANCISCO MUSEUM <br>OF ART PROGRAM GUIDE.</p>
+  <p class="day">March 1964</p>
+</div>
+<div class="page" id="artworkSix">
+  <div class="close"></div>
+  <div class="working6"></div>
+<div class="workingblur6"></div>
+  <p class ="from2">BARBARA<br> STAUFFACHER SOLOMON,<br>SAN FRANCISCO MUSEUM <br>OF ART PROGRAM GUIDE.</p>
+  <p class="day">Mar 25, 2019</p>
+  <
+</div>
+
+
+</div>
+
+<div id="pageFour" class="page">
+  
+  <div class="arrow"></div>
+  <h1 class="mywork">CREATING MY WORK </h1>
+<div class="boxwork">
+  
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<click onclick="print_current_page()"><div class="print">PRINT</div></click>
+
+
+
+
+
+<div id="scrollMarker"></div>
+
+<div id="mobile">
+        <img class="center">
+    </div>
   </body>
-</html>

@@ -1,38 +1,27 @@
 body {
-  font-size:2vw;
-  font-family:Menlo, monospace;
+  background-color: black;
 }
-.copy {
-  max-width: 500px;
-  margin:0 auto;
-}
+ h1{
 
-.square {
-  position:fixed;
-  top:calc(50vh - 25vmin);
-  left:calc(50vw - 25vmin);
-  width:50vmin;
-  height:50vmin;
-  background:#eee;
-  z-index:-1;
-}
+font-family: ff-dagny-web-pro, sans-serif;
+font-style: normal;
+font-weight: 100;
 
-.big, .small {
-  display:none;
-}
 
-@media only screen and (max-width: 600px) {
-  body {
-    margin-top:25vh;
-  }
-  .small {
-    display:block;
-  }
-  
-}
+ }
 
-@media only screen and  (min-width: 601px) {
-  .big {
-    display:block;
-  }
+ .send{
+
+width:120px;
+height:50px;
+background-color:none;
+background-image: url("Image/send.png");
+background-size:cover;
+background-position: center;
+position:absolute;
+margin-left:630px;
+ position: absolute;
+margin-top: 880px;
+align-items: center;
+
 }
