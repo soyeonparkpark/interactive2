@@ -901,9 +901,9 @@ font-family:  'Quicksand', sans-serif;
 font-style: normal;
 font-weight: 100;
 font-size:1.2vw;
-margin-left: 27vw;
+margin-left: 20vw;
 position: absolute;
-margin-top: 11.9vw;
+margin-top: 15.54vw;
 color: black;
 }
 #pageFour div.arrow {
@@ -944,6 +944,11 @@ position:absolute;
 }
 #pageFour div.arrow{
 	display: none;
+}
+#pageFour {
+
+background-color: black;
+	background-image:none;
 }
 }
 
