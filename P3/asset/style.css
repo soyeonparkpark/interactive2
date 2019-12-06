@@ -502,7 +502,7 @@ div.workingblur6{
 width:34.5vw;
 height:34.5vw;
 background-color:none;
-background-image: url("Image/work6.png");
+background-image: url("image/work6.png");
 background-size:cover;
 background-position: center;
 filter:blur(10px);
@@ -519,7 +519,7 @@ position:absolute;
 width:5.4vw;
 height:4.1vw;
 background-color:none;
-background-image: url("Image/arrow.png");
+background-image: url("image/arrow.png");
 background-size:cover;
 background-position: center;
 margin-left:10vw;
