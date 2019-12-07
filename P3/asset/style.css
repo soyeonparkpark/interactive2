@@ -1094,6 +1094,11 @@ html.smoothScroll{
 #palette{
 	display: none;
 }
+#pageThree div.menu.locked{
+	display: none;
+}
+
+
     }
 
 /*    
