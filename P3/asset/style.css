@@ -932,8 +932,9 @@ position:absolute;
   }
 
   .boxwork {
-  right:420px;
+  right:500px;
   transform: scale(1.5);
+
   top:55px;
   }
 #pageFour div.print{
@@ -947,7 +948,7 @@ position:absolute;
 }
 #pageFour {
 
-background-color: black;
+background-color: white;
 	background-image:none;
 }
 }
@@ -962,7 +963,7 @@ background-color: black;
 width:52vw;
 height:52vw;
 background-color:none;
-background-image: url("image/artist.jpg");
+background-image: url("image/Artist.jpg");
 background-size:cover;
 background-position: center;
 margin-left:30vw;
@@ -1061,6 +1062,11 @@ font-size: 3vw;
 margin-top: 95vw;
 margin-left: 19vw;
 }
+ body {
+	overflow: auto;
+	height:auto;
+}
+
  }
     
 
