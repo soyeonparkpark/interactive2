@@ -43,8 +43,8 @@ font-weight: 500px;
 
 .send{
 
-width:120px;
-height:50px;
+width:100px;
+height:30px;
 background-color:none;
 background-image: url("Image/send.png");
 background-size:cover;
@@ -52,7 +52,7 @@ background-position: center;
 position:absolute;
 margin-left:630px;
  position: absolute;
-margin-top: 880px;
+margin-top: 850px;
 align-items: center;
 
 }

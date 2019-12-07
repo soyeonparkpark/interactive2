@@ -1,10 +1,11 @@
 body {
   
 
-height: 1100px;
+
 
 
 background-color: #27352f;
+height: 100%
 
   
 
@@ -15,13 +16,13 @@ h1{
 
 font-size: 50px;
 position: absolute;
-margin-left:615px;
+margin-left:750px;
 font-family: fira sans-2, sans-serif;
 letter-spacing: 10px;
 font-style: 300px;
 font-weight: 200px;
  color:#fffef0;
-margin-top: 500px;
+margin-top: 150px;
 
 
 }
@@ -29,7 +30,7 @@ h2{
 width:430px;
 font-size: 15px;
 position: absolute;
-margin-left:500px;
+margin-left:750px;
 line-height: 33px;
 font-family: fira sans-2, sans-serif;
 font-style: normal;
@@ -37,8 +38,7 @@ font-weight: lighter;
 
 
  color:#d4e4d2;
-margin-top: 580px;
-
+margin-top: 250px;
 
 
 
@@ -46,16 +46,16 @@ margin-top: 580px;
 
 .i{
 
-width:300px;
-height:400px;
+width:400px;
+height:500px;
 background-color:none;
 background-image: url("Image/i.png");
 background-size:cover;
 background-position: center;
 position:absolute;
-margin-left:550px;
+margin-left:250px;
  
-margin-top: 40px;
+margin-top: 150px;
 align-items: center;
 
 }
@@ -64,16 +64,16 @@ align-items: center;
 
 .send{
 
-width:82px;
-height:55px;
+width:72px;
+height:49px;
 background-color:none;
 background-image: url("Image/confirm.png");
 background-size:cover;
 background-position: center;
 position:absolute;
-margin-left:670px;
+margin-left:750px;
  
-margin-top: 970px;
+margin-top: 600px;
 align-items: center;
 
 }

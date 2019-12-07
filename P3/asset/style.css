@@ -1066,9 +1066,35 @@ margin-left: 19vw;
 	overflow: auto;
 	height:auto;
 }
+html {
+	overflow:auto;
+	height:auto;
 
+	/*scroll-snap-type: x mandatory;*/
+}
+#pageOne {
+	display: none;
+}
+
+#pageTwo {
+	display: none;
+}
+#pageFour {
+display: none;
  }
-    
+#pageThree .page{
+display:none;
+}
+html.smoothScroll{
+	display: none;
+}
+#scrollMarker {
+	display: none;
+}
+#palette{
+	display: none;
+}
+    }
 
 /*    
 @media print {
