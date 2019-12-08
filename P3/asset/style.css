@@ -155,7 +155,7 @@ position:absolute;
 #pageOne {
 	
 	top:0;
-	left:0;
+	left:100vw;
 	width:100vw;
 	height:100vh;
 	/*background: red;*/
@@ -163,31 +163,31 @@ position:absolute;
 
 #pageTwo {
 	
-	top:200;
-	left:0vw;
+	top:0;
+	left:200vw;
 	width:100vw;
 	height:100vh;
 	
 }
 #pageThree {
 
-	top:300;
-	left:0;
+	top:0vh;
+	left:300vw;
 	width:100vw;
 	height:100vh;
 	/*background: red;*/
 }
 #pageFour {
 	
-	top:400;
-	left:0;
+	top:0vh;
+	left:400;
 	width:100vw;
 	height:100vh;
 	/*background: red;*/
 }
 #pageFive {
 
-	top:500;
+	top:500vh;
 	left:0;
 	width:100vw;
 	height:100vh;
@@ -195,7 +195,7 @@ position:absolute;
 }
 #pageSix {
 	
-	top:600;
+	top:600vh;
 	left:0;
 	width:100vw;
 	height:100vh;
