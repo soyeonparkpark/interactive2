@@ -23,7 +23,7 @@ window.addEventListener('mousewheel',function(event){
 		// window.location.href = "http://www.google.com"
 	// }
 
-	if(!isPalette){
+	if(!isPalette && window.innerWidth > 600){
 
 		let page = Math.round(window.scrollX / window.innerWidth)
 

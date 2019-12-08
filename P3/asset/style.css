@@ -162,16 +162,16 @@ position:absolute;
 }
 
 #pageTwo {
-	position: absolute;
-	top:0;
-	left:100vw;
+	
+	top:200;
+	left:0vw;
 	width:100vw;
 	height:100vh;
-	background: white;
+	
 }
 #pageThree {
 
-	top:0;
+	top:300;
 	left:0;
 	width:100vw;
 	height:100vh;
@@ -179,7 +179,7 @@ position:absolute;
 }
 #pageFour {
 	
-	top:0;
+	top:400;
 	left:0;
 	width:100vw;
 	height:100vh;
@@ -187,7 +187,7 @@ position:absolute;
 }
 #pageFive {
 
-	top:0;
+	top:500;
 	left:0;
 	width:100vw;
 	height:100vh;
@@ -195,7 +195,7 @@ position:absolute;
 }
 #pageSix {
 	
-	top:0;
+	top:600;
 	left:0;
 	width:100vw;
 	height:100vh;
@@ -1061,6 +1061,69 @@ filter: drop-shadow(1px 3px 3px #222);
 font-size: 3vw;
 margin-top: 95vw;
 margin-left: 19vw;
+}
+#pageThree h1.title2{
+
+font-size: 3vw;
+margin-top: 190vw;
+margin-left: 19vw;
+
+}
+#pageThree div.Thirdwork{
+transform: scale(5);
+left:-19vw;
+top:232vw;
+filter: drop-shadow(1px 3px 3px #222);
+
+}
+#pageThree h1.title3{
+
+font-size: 3vw;
+margin-top: 286vw;
+margin-left: 19vw;
+
+}
+#pageThree div.Fourwork{
+transform: scale(5);
+left:31vw;
+top:307vw;
+filter: drop-shadow(1px 3px 3px #222);
+
+}
+#pageThree h1.title4{
+
+font-size: 3vw;
+margin-top: 386vw;
+margin-left: 20vw;
+
+}
+#pageThree h1.title5{
+
+font-size: 3vw;
+margin-top: 486vw;
+margin-left: 20vw;
+
+}
+#pageThree div.Fivework{
+transform: scale(5);
+left:6vw;
+top:406vw;
+filter: drop-shadow(1px 3px 3px #222);
+
+}
+#pageThree div.Sixwork{
+transform: scale(5);
+left:-18vw;
+top:508vw;
+filter: drop-shadow(1px 3px 3px #222);
+
+}
+#pageThree h1.title6{
+
+font-size: 3vw;
+margin-top: 588vw;
+margin-left: 20vw;
+
 }
  body {
 	overflow: auto;
