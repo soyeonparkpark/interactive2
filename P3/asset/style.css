@@ -117,7 +117,7 @@ animation: peon 5s infinite;
 
 div.go{
 
-width:15vw;
+width:13.7vw;
 height:66vw;
 background-color:none;
 background-image: url("image/go.png");
@@ -155,20 +155,24 @@ position:absolute;
 #pageOne {
 	
 	top:0;
-	left:100vw;
-	width:100vw;
+	left:0vw;
+	width:80vw;
 	height:100vh;
+
 	/*background: red;*/
 }
 
 #pageTwo {
 	
-	top:0;
-	left:200vw;
-	width:100vw;
-	height:100vh;
-	
+
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
 }
+	
+
 #pageThree {
 
 	top:0vh;
